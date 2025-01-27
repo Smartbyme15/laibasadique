@@ -1,0 +1,49 @@
+.box{
+    width: 65%;
+    height:900px ;
+    border: 15px  rgb(192, 127, 42) solid; 
+    text-align: center;
+    box-shadow: 15px 15px rgb(243, 197, 136);
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+
+
+}
+.heading {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%); /* Center the heading horizontally */
+    font-size: 3.5rem;
+    color:black;
+    text-shadow: 5px 3px rgb(46, 43, 43);
+    margin: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+
+
+}
+.box > div{
+   
+   height: 112px;
+   width: 8%;
+    width: calc(100%/8);
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(197, 143, 72);
+}
+
+.a{
+    background-color: white;
+   
+}
+.b{
+    background-color: rgb(131, 92, 21);
+   
+}

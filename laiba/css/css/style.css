@@ -1,0 +1,96 @@
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: black;
+   margin-left: 20%;
+margin-right: 20%;
+}
+ 
+select > 
+ option + a:hover{
+
+
+    border: 3px solid blue;
+}
+.search{
+
+}
+.back-image{
+    opacity: 0.7;
+    position: relative;
+    display: inline-block;
+}
+.head {
+    position:absolute ;
+    top :20%;
+    display: block;
+    justify-content:center;
+    width: 100%;
+    padding-left: 30px;
+   
+   
+}
+ .head h1{
+    display:flex;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder !important;
+    font-size: 65px !important;
+    color: white;
+    text-shadow: 4px 4px 4px black !important;
+}
+.head p{
+color: white;
+display: flex;
+width: 100%;
+font-weight: bolder;
+text-shadow: 5px 5px 5px  black ;
+}
+.head button{
+    background-color:rgba(223, 51, 51, 0.856);
+    color: white;
+    border-radius: 6px 6px 6px 6px ;
+   font-weight: bolder!important;
+   width: 20%;
+   height: 45px;
+   font-weight: bolder;
+   font-size: 20px;
+   border: none;
+   display: block;
+   
+    
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 10%;
+    height: 50%;
+    margin-top: 5%;
+}
+.first{
+display: inline;
+margin-top:  7%; 
+
+
+
+
+}
+.two{
+    display: inline;
+}
+.headir{
+width: 100%;
+}
+.foot {
+    width: 20%;
+    display: inline; 
+    border: 1px solid black;
+  margin: auto;
+
+}
