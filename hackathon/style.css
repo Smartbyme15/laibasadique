@@ -1,0 +1,38 @@
+.one{
+    
+    border: 1px solid white  !important;
+    color: white  !important;
+    border-radius: 20px;
+    font-size: large;
+    background-color: black;
+
+
+    
+}
+.two{
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+}
+
+*{
+    background-color: black;
+}
+.center{
+    display: block !important;
+    text-align: center !important;
+  
+}
+.same{
+    font-size: larger;
+}
+.six{
+   margin-top: 50px;
+    background-color: white;
+    
+}
+.but{
+    border-radius: 20px;
+    font-size: larger;
+ 
+}
